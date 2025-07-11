@@ -32,3 +32,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// Mobile menu
+
+const menu = document.querySelector(".mobile-menu");
+const hamburgerMenu = document.getElementById("hamburger-button");
+
+hamburgerMenu.addEventListener("click", () => {
+  menu.classList.toggle("active");
+});
